@@ -48,6 +48,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Others
 
+### Centralized Providers
+
+-   All global client-side providers (e.g., for state management, data fetching, or authentication) should be consolidated in `src/app/providers.tsx`.
+
 ### Error Handling with `tiny-invariant`
 
 -   **Precondition Checks**: Use `tiny-invariant` for asserting preconditions and validating assumptions in your code. This helps in catching invalid states early during development and provides clear, concise error messages.
