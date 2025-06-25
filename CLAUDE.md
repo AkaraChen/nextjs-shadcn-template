@@ -10,6 +10,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **Start Production Server**: `pnpm run start`
 - **Lint Project**: `pnpm run lint`
 
+## Code Conventions
+
+- File and folder names should use kebab-case (e.g., `my-component.tsx`, `my-folder`).
+
 ## High-Level Code Architecture
 
 This project is a Next.js application utilizing the App Router.
