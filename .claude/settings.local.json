@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "WebFetch(domain:nuqs.47ng.com)",
+      "WebFetch(domain:nuqs.47ng.com)"
     ],
     "deny": []
   }
