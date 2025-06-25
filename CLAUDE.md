@@ -16,6 +16,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - When using a `[feature_name].[type].ts` naming pattern for related files (e.g., for components, utilities, or data fetching), ensure `[feature_name]` is kebab-cased.
     -   Examples: `user-profile.hooks.ts`, `data-parser.utils.ts`, `auth.keys.ts`.
 
+-   **Modern ES Features**: Utilize the most modern ECMAScript features (targeting ES2022 and beyond) for clean, comprehensive, and performant code. If a feature is supported by TypeScript, it is considered stable and encouraged for use.
+
 ## Component and Hook Placement
 
 -   **Global Reusability**:
